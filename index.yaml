@@ -3,7 +3,7 @@ entries:
   cnwan-operator:
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2021-12-09T16:23:40.519010716Z"
+    created: "2021-12-13T07:42:37.729615873Z"
     dependencies:
     - condition: operator.etcd.install
       name: etcd
@@ -13,7 +13,7 @@ entries:
       brings support for AWS Cloud Map, enabling the project to reflect services inside
       your cluster to AWS''s service registry.  Take a look to our changelog for a
       complete list of changes. '
-    digest: c9f090d10eca280ac101ffb3c9c81021c81b15c85b1857dc1d3cd6a0d9e91536
+    digest: 5f609a3bdac45f081399daa4f08580e450932212eb8f3ca4ac101d8e44015f20
     home: https://github.com/CloudNativeSDWAN/cnwan-operator
     icon: https://avatars.githubusercontent.com/u/66446392?s=200&v=4
     keywords:
@@ -31,11 +31,11 @@ entries:
     - https://github.com/CloudNativeSDWAN/cnwan-operator
     type: application
     urls:
-    - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.2.0/cnwan-operator-1.2.0.tgz
+    - https://github.com/SunSince90/cnwan-helm-charts/releases/download/cnwan-operator-1.2.0/cnwan-operator-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: v0.6.0
-    created: "2021-12-09T10:28:08.77543423Z"
+    created: "2021-12-09T13:26:32.393750472Z"
     dependencies:
     - condition: operator.etcd.install
       name: etcd
@@ -51,7 +51,7 @@ entries:
       Directory is now definitively removed and some other packages have been removed
       as well, making the project slimmer and smoother.  Some other improvements are
       also present. '
-    digest: 5b8d06040f311300edd4a79ec2bb598997b88da79a6293d15e2e9d671e64f356
+    digest: 62a2147a75c82fbb323d32bc32fd8359f9f4b9150e5045e524357c2ca1652ec7
     home: https://github.com/CloudNativeSDWAN/cnwan-operator
     icon: https://avatars.githubusercontent.com/u/66446392?s=200&v=4
     keywords:
@@ -69,11 +69,11 @@ entries:
     - https://github.com/CloudNativeSDWAN/cnwan-operator
     type: application
     urls:
-    - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.1.2/cnwan-operator-1.1.2.tgz
+    - https://github.com/SunSince90/cnwan-helm-charts/releases/download/cnwan-operator-1.1.2/cnwan-operator-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
     appVersion: v0.6.0
-    created: "2021-12-09T10:15:39.880189677Z"
+    created: "2021-12-09T10:19:34.27407436Z"
     dependencies:
     - condition: operator.etcd.install
       name: etcd
@@ -89,7 +89,7 @@ entries:
       Directory is now definitively removed and some other packages have been removed
       as well, making the project slimmer and smoother.  Some other improvements are
       also present. '
-    digest: 0ff576a1ceda646aeae17464fbde3dc80a0a54edb3c9a97e0029c9631f781959
+    digest: 6fed1ac5530134a06459b4bda7ee1f68b5c38e85f92bebfb5eeeca09c0230a35
     home: https://github.com/CloudNativeSDWAN/cnwan-operator
     icon: https://avatars.githubusercontent.com/u/66446392?s=200&v=4
     keywords:
@@ -107,11 +107,11 @@ entries:
     - https://github.com/CloudNativeSDWAN/cnwan-operator
     type: application
     urls:
-    - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.1.1/cnwan-operator-1.1.1.tgz
+    - https://github.com/SunSince90/cnwan-helm-charts/releases/download/cnwan-operator-1.1.1/cnwan-operator-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
     appVersion: v0.6.0
-    created: "2021-10-13T15:00:33.052392451Z"
+    created: "2021-10-14T07:31:04.606007658Z"
     dependencies:
     - condition: operator.etcd.install
       name: etcd
@@ -127,7 +127,7 @@ entries:
       Directory is now definitively removed and some other packages have been removed
       as well, making the project slimmer and smoother.  Some other improvements are
       also present. '
-    digest: 12bf5309ec350c61f6cf8f8043367aaeb9d3d9ed4bb307021ca6e42e2b2c25d1
+    digest: 153407ac573ec1e4ae194efce736f4326c82e70a5b972e4c6bf503bc45d56a4d
     home: https://github.com/CloudNativeSDWAN/cnwan-operator
     icon: https://avatars.githubusercontent.com/u/66446392?s=200&v=4
     keywords:
@@ -145,11 +145,11 @@ entries:
     - https://github.com/CloudNativeSDWAN/cnwan-operator
     type: application
     urls:
-    - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.1.0/cnwan-operator-1.1.0.tgz
+    - https://github.com/SunSince90/cnwan-helm-charts/releases/download/cnwan-operator-1.1.0/cnwan-operator-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: v0.5.0
-    created: "2021-08-26T11:42:06.049916639Z"
+    created: "2021-09-20T12:24:25.565874891Z"
     dependencies:
     - condition: operator.etcd.install
       name: etcd
@@ -163,7 +163,7 @@ entries:
       you may now leave some of the settings empty and the operator will detect your
       project ID and region automatically and therefore set up *Service Directory*
       without you having to touch anything. '
-    digest: 55d72e65ff0902c578dea44ef6d18d6abf3d058d16b1ac390ebe5e02ee7f8d1f
+    digest: 26ee81f1910042aec58b0a0732307c9fa4d5d8a10a66c2d058c9eacee390a0f6
     home: https://github.com/CloudNativeSDWAN/cnwan-operator
     icon: https://avatars.githubusercontent.com/u/66446392?s=200&v=4
     keywords:
@@ -181,7 +181,7 @@ entries:
     - https://github.com/CloudNativeSDWAN/cnwan-operator
     type: application
     urls:
-    - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.0.1/cnwan-operator-1.0.1.tgz
+    - https://github.com/SunSince90/cnwan-helm-charts/releases/download/cnwan-operator-1.0.1/cnwan-operator-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: v0.5.0
@@ -219,4 +219,4 @@ entries:
     urls:
     - https://github.com/CloudNativeSDWAN/cnwan-helm-charts/releases/download/cnwan-operator-1.0.0/cnwan-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-09T16:23:40.519054016Z"
+generated: "2021-12-13T07:42:37.729675674Z"
